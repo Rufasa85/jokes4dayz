@@ -21,3 +21,5 @@ function fetchAndDisplayJoke() {
 }
 
 newJokeBtn.addEventListener("click", fetchAndDisplayJoke)
+
+fetchAndDisplayJoke()
