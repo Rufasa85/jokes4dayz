@@ -1,3 +1,41 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body {
     background: salmon;
+}
+
+h1 {
+    font-size:3em;
+}
+nav {
+    height:8vh;
+    background-color: yellow;
+}
+
+main {
+    width: 70vw;
+    margin:50px auto;
+    /* border:1px solid green; */
+}
+
+#joke-text {
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#joke-buttons{
+    display:flex;
+    justify-content: space-between;
+    /* border:1px solid blue */
+}
+
+#joke-buttons button {
+    width:30%;
+    height:10vh;
 }
